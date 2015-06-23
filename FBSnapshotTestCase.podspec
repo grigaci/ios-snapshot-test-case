@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.framework    = 'XCTest'
   s.public_header_files = ['FBSnapshotTestCase/FBSnapshotTestCase.h', 'FBSnapshotTestCase/FBSnapshotTestCasePlatform.h']
   s.private_header_files = ['FBSnapshotTestCase/FBSnapshotTestController.h', 'FBSnapshotTestCase/UIImage+Compare.h', 'FBSnapshotTestCase/UIImage+Diff.h']
-  s.source_files = 'FBSnapshotTestCase/**/*.{h,m,swift}'
+  s.source_files = 'FBSnapshotTestCase/**/*.{h,m}'
 end
